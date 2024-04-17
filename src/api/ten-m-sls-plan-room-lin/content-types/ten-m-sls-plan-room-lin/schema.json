@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_sls_plan_room_link",
+  "info": {
+    "singularName": "ten-m-sls-plan-room-lin",
+    "pluralName": "ten-m-sls-plan-room-link",
+    "displayName": "TenMSlsPlanRoomLink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plan_room_link_id": {
+      "type": "integer",
+      "required": true
+    },
+    "sls_plan_id": {
+      "type": "integer",
+      "required": true
+    },
+    "rep_type_room_id": {
+      "type": "integer",
+      "required": true
+    },
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_dsply_info",
+  "info": {
+    "singularName": "ten-m-room-dsply-info-1",
+    "pluralName": "ten-m-room-dsply-info",
+    "displayName": "TenMRoomDsplyInfo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rep_type_room_id": {
+      "type": "integer",
+      "required": true
+    },
+    "dsply_info_name": {
+      "type": "string",
+      "required": true
+    },
+    "dsply_info_name_en": {
+      "type": "string",
+      "required": true
+    },
+    "dsply_info_logo_url": {
+      "type": "string",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    }
+  }
+}

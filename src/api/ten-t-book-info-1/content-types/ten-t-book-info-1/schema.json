@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_book_info",
+  "info": {
+    "singularName": "ten-t-book-info-1",
+    "pluralName": "ten-t-book-info",
+    "displayName": "TenTBookInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "book_id": {
+      "type": "string",
+      "required": true
+    },
+    "guest_id": {
+      "type": "integer",
+      "required": true
+    },
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "check_in_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "check_out_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "total_price": {
+      "type": "string",
+      "required": true
+    },
+    "book_status": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "traffic": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "pay_status": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "default": "N",
+      "maxLength": 1
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

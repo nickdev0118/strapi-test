@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_add_on_images",
+  "info": {
+    "singularName": "ten-m-add-on-image",
+    "pluralName": "ten-m-add-on-images",
+    "displayName": "TenMAddOnImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "add_on_id": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "image_url": {
+      "type": "string",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "default": "N",
+      "maxLength": 1
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

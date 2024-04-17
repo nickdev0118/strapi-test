@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_booking_status",
+  "info": {
+    "singularName": "ten-t-booking-status-1",
+    "pluralName": "ten-t-booking-status",
+    "displayName": "TenTBookingStatus"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    }
+  }
+}

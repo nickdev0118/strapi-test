@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_traffic",
+  "info": {
+    "singularName": "ten-t-traffic-1",
+    "pluralName": "ten-t-traffic",
+    "displayName": "TenTTraffic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "traffic_type": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "traffic_type_en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_stock",
+  "info": {
+    "singularName": "ten-m-room-stoc",
+    "pluralName": "ten-m-room-stock",
+    "displayName": "TenMRoomStock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "sls_date": {
+      "type": "datetime"
+    },
+    "sls_room_num": {
+      "type": "integer"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

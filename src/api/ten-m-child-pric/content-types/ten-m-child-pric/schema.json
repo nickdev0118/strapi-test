@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_child_price",
+  "info": {
+    "singularName": "ten-m-child-pric",
+    "pluralName": "ten-m-child-price",
+    "displayName": "TenMChildPrice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "person_class_id": {
+      "type": "integer",
+      "required": true
+    },
+    "price_rtio": {
+      "type": "string",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

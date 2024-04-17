@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_cancel_policy_rtio",
+  "info": {
+    "singularName": "ten-m-cancel-policy-rtio-1",
+    "pluralName": "ten-m-cancel-policy-rtio",
+    "displayName": "TenMCancelPolicyRtio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cancel_policy_id": {
+      "type": "integer"
+    },
+    "days_ago": {
+      "type": "integer"
+    },
+    "price_rtio": {
+      "type": "string"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "default": "N",
+      "maxLength": 1
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_add_on_stock",
+  "info": {
+    "singularName": "ten-m-add-on-stoc",
+    "pluralName": "ten-m-add-on-stock",
+    "displayName": "TenMAddOnStock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "add_on_id": {
+      "required": true,
+      "type": "integer"
+    },
+    "sls_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "day_max_sls_num": {
+      "type": "integer",
+      "required": true
+    },
+    "book_num": {
+      "type": "integer",
+      "required": true
+    },
+    "stock_num": {
+      "type": "integer",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "maxLength": 1,
+      "required": true,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

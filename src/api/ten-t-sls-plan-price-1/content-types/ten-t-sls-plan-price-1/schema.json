@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_sls_plan_price",
+  "info": {
+    "singularName": "ten-t-sls-plan-price-1",
+    "pluralName": "ten-t-sls-plan-price",
+    "displayName": "TenTSlsPlanPrice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plan_room_link_id": {
+      "type": "integer",
+      "required": true
+    },
+    "sls_date": {
+      "type": "datetime"
+    },
+    "sls_price": {
+      "type": "integer",
+      "required": true
+    },
+    "book_person_num": {
+      "type": "integer"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

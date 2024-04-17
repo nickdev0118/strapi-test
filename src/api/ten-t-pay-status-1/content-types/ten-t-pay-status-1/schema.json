@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_pay_status",
+  "info": {
+    "singularName": "ten-t-pay-status-1",
+    "pluralName": "ten-t-pay-status",
+    "displayName": "TenTPayStatus"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string",
+      "maxLength": 50,
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firsts",
+  "info": {
+    "singularName": "first",
+    "pluralName": "firsts",
+    "displayName": "first"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

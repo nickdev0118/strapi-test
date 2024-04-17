@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_option_info",
+  "info": {
+    "singularName": "ten-m-room-option-inf",
+    "pluralName": "ten-m-room-option-info",
+    "displayName": "TenMRoomOptionInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "room_option_key": {
+      "type": "string",
+      "required": true
+    },
+    "room_option_key_en": {
+      "type": "string",
+      "required": true
+    },
+    "room_option_value": {
+      "type": "text",
+      "required": true
+    },
+    "room_option_value_en": {
+      "type": "text",
+      "required": true
+    },
+    "detl_dscrpt": {
+      "type": "text",
+      "required": true
+    },
+    "detl_dscrpt_en": {
+      "type": "text",
+      "required": true
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

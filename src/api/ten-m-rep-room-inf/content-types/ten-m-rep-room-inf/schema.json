@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_rep_room_info",
+  "info": {
+    "singularName": "ten-m-rep-room-inf",
+    "pluralName": "ten-m-rep-room-info",
+    "displayName": "TenMRepRoomInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rep_type_room_id": {
+      "type": "integer",
+      "required": true
+    },
+    "rep_room_type_name": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
+    },
+    "rep_room_type_name_en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "max_occupancy": {
+      "type": "integer",
+      "required": true
+    },
+    "min_occupancy": {
+      "type": "integer",
+      "required": true
+    },
+    "square": {
+      "type": "string",
+      "required": true
+    },
+    "detl_dscrpt": {
+      "type": "text"
+    },
+    "detl_dscrpt_en": {
+      "type": "text"
+    },
+    "day_use_flg": {
+      "type": "string",
+      "maxLength": 1,
+      "required": true,
+      "default": "N"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

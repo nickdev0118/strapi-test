@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_add_on_info",
+  "info": {
+    "singularName": "ten-m-add-on-inf",
+    "pluralName": "ten-m-add-on-info",
+    "displayName": "TenMAddOnInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "add_on_id": {
+      "type": "integer",
+      "required": true
+    },
+    "add_on_name": {
+      "type": "string",
+      "required": true
+    },
+    "add_on_name_en": {
+      "type": "string",
+      "required": true
+    },
+    "add_on_type_cd": {
+      "type": "integer",
+      "required": true
+    },
+    "sls_price": {
+      "type": "string",
+      "required": true
+    },
+    "detl_dscrpt": {
+      "type": "text"
+    },
+    "detl_dscrpt_en": {
+      "type": "text"
+    },
+    "use_date_flg": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "Y"
+    },
+    "sup_info_dscrpt": {
+      "type": "string"
+    },
+    "sup_info_dscrpt_en": {
+      "type": "string"
+    },
+    "sls_unit_id": {
+      "type": "integer",
+      "required": true
+    },
+    "day_max_sls_num": {
+      "type": "integer"
+    },
+    "book_min_num": {
+      "type": "integer"
+    },
+    "book_max_num": {
+      "type": "integer"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

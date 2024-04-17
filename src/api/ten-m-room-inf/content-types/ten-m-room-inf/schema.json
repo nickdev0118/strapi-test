@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_info",
+  "info": {
+    "singularName": "ten-m-room-inf",
+    "pluralName": "ten-m-room-info",
+    "displayName": "TenMRoomInfo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "rep_room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "room_type_name": {
+      "type": "string",
+      "maxLength": 100,
+      "required": true
+    },
+    "room_type_name_en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_option_images",
+  "info": {
+    "singularName": "ten-m-room-option-image",
+    "pluralName": "ten-m-room-option-images",
+    "displayName": "TenMRoomOptionImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_type_id": {
+      "type": "integer",
+      "required": true
+    },
+    "image_url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

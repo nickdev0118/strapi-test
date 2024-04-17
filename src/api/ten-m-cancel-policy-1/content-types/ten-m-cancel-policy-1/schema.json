@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_cancel_policy",
+  "info": {
+    "singularName": "ten-m-cancel-policy-1",
+    "pluralName": "ten-m-cancel-policy",
+    "displayName": "TenMCancelPolicy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cancel_policy_id": {
+      "type": "integer"
+    },
+    "cancel_policy_name": {
+      "type": "string"
+    },
+    "cancel_policy_dscrpt": {
+      "type": "string"
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

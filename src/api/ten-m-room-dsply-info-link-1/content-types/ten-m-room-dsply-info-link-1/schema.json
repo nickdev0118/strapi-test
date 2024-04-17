@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_room_dsply_info_link",
+  "info": {
+    "singularName": "ten-m-room-dsply-info-link-1",
+    "pluralName": "ten-m-room-dsply-info-link",
+    "displayName": "TenMRoomDsplyInfoLink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenant_id": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "test": {
+      "type": "string"
+    }
+  }
+}

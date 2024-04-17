@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_m_client",
+  "info": {
+    "singularName": "ten-m-client-1",
+    "pluralName": "ten-m-client",
+    "displayName": "TenMClient"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenant_id": {
+      "type": "string",
+      "required": true
+    },
+    "tenant_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "fclty_logo_url": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "del_flag": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_book_person_num",
+  "info": {
+    "singularName": "ten-t-book-person-num-1",
+    "pluralName": "ten-t-book-person-num",
+    "displayName": "TenTBookPersonNum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "book_id": {
+      "type": "string",
+      "required": true
+    },
+    "person_class_cd": {
+      "type": "string",
+      "required": true
+    },
+    "book_person_num": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "del_flag": {
+      "type": "string",
+      "required": true,
+      "maxLength": 1,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

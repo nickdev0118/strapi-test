@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ten_t_guest",
+  "info": {
+    "singularName": "ten-t-guest-1",
+    "pluralName": "ten-t-guest",
+    "displayName": "TenTGuest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "last_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "post_cd": {
+      "type": "string",
+      "maxLength": 15
+    },
+    "country": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "prefecture": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "address": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "adress_num": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "phone_num": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "del_flag": {
+      "type": "string",
+      "maxLength": 1,
+      "required": true,
+      "default": "N"
+    },
+    "tenant_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
